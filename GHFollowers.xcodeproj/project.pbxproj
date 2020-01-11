@@ -28,6 +28,7 @@
 		14B0CD0023C8EE70001E9B78 /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B0CCFF23C8EE70001E9B78 /* ErrorMessage.swift */; };
 		14B0CD0323C94719001E9B78 /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B0CD0223C94719001E9B78 /* FollowerCell.swift */; };
 		14B0CD0523C94795001E9B78 /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B0CD0423C94795001E9B78 /* GFAvatarImageView.swift */; };
+		14B0CD0723CA20D8001E9B78 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B0CD0623CA20D8001E9B78 /* UIHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		14B0CCFF23C8EE70001E9B78 /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
 		14B0CD0223C94719001E9B78 /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
 		14B0CD0423C94795001E9B78 /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
+		14B0CD0623CA20D8001E9B78 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				14B0CCFF23C8EE70001E9B78 /* ErrorMessage.swift */,
+				14B0CD0623CA20D8001E9B78 /* UIHelper.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				14B0CCE923C81200001E9B78 /* GFTitleLabel.swift in Sources */,
 				14B0CCE723C80F9D001E9B78 /* String+Ext.swift in Sources */,
 				14B0CD0023C8EE70001E9B78 /* ErrorMessage.swift in Sources */,
+				14B0CD0723CA20D8001E9B78 /* UIHelper.swift in Sources */,
 				14B0CCFD23C8E236001E9B78 /* NetworkManager.swift in Sources */,
 				14B0CCCB23C7DDC1001E9B78 /* SceneDelegate.swift in Sources */,
 				14B0CCEB23C81355001E9B78 /* GFBodyLabel.swift in Sources */,
