@@ -30,6 +30,7 @@
 		14B0CD0523C94795001E9B78 /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B0CD0423C94795001E9B78 /* GFAvatarImageView.swift */; };
 		14B0CD0723CA20D8001E9B78 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B0CD0623CA20D8001E9B78 /* UIHelper.swift */; };
 		14B0CD0F23CB8D18001E9B78 /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B0CD0E23CB8D18001E9B78 /* GFEmptyStateView.swift */; };
+		14B0CD1123CB9B07001E9B78 /* UserInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B0CD1023CB9B07001E9B78 /* UserInfoVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		14B0CD0423C94795001E9B78 /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
 		14B0CD0623CA20D8001E9B78 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 		14B0CD0E23CB8D18001E9B78 /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
+		14B0CD1023CB9B07001E9B78 /* UserInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				14B0CCDC23C7E177001E9B78 /* SearchVC.swift */,
 				14B0CCDE23C7E1A2001E9B78 /* FavoritesListVC.swift */,
 				14B0CCE423C80B05001E9B78 /* FollowerListVC.swift */,
+				14B0CD1023CB9B07001E9B78 /* UserInfoVC.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 				14B0CD0323C94719001E9B78 /* FollowerCell.swift in Sources */,
 				14B0CD0523C94795001E9B78 /* GFAvatarImageView.swift in Sources */,
 				14B0CCED23C8140E001E9B78 /* GFAlertVC.swift in Sources */,
+				14B0CD1123CB9B07001E9B78 /* UserInfoVC.swift in Sources */,
 				14B0CCF823C8DCDD001E9B78 /* Follower.swift in Sources */,
 				14B0CCC923C7DDC1001E9B78 /* AppDelegate.swift in Sources */,
 				14B0CCE923C81200001E9B78 /* GFTitleLabel.swift in Sources */,
