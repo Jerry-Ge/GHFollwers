@@ -39,6 +39,8 @@ class SearchVC: UIViewController {
         view.addGestureRecognizer(tap)
     }
     
+    
+//MARK: - Screen Transition
     @objc func pushFollowerListVC()  {
         guard isUserNameEntered else {
             presentGFAlertOnMainThread(title: "Empty UserName", message: "Please enter a username. We need to know who to look for 😀", buttonTitle: "Ok")
@@ -53,6 +55,7 @@ class SearchVC: UIViewController {
     }
     
     
+    //MARK: - View Configurations
     func configureLogoImageView() {
         view.addSubview(logoImageView)
         logoImageView.translatesAutoresizingMaskIntoConstraints = false

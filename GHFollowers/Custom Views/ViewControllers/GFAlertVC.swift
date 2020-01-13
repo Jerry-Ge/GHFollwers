@@ -72,6 +72,8 @@ class GFAlertVC: UIViewController {
     func configureActionButton() {
         containerView.addSubview(actionButton)
         actionButton.setTitle(buttonTitle ?? "Ok", for: .normal)
+        
+        // Set button action callback function
         actionButton.addTarget(self, action: #selector(dismissVC), for: .touchUpInside)
         
         NSLayoutConstraint.activate([

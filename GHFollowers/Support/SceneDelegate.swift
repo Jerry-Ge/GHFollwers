@@ -20,7 +20,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window = UIWindow(frame: windowScene.coordinateSpace.bounds)
         window?.windowScene = windowScene
         window?.rootViewController = createTabbar()
-        window?.makeKeyAndVisible()
+        window?.makeKeyAndVisible() //Show the Window
         
         configureNavigationBar()
     }

@@ -34,11 +34,13 @@ class FollowerListVC: UIViewController {
         configureDataSource()
     }
     
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
         navigationController?.setNavigationBarHidden(false, animated: true)
     }
     
+    //MARK: - View Components Configuration
     func configureViewController() {
         view.backgroundColor = .systemBackground
         navigationController?.navigationBar.prefersLargeTitles = true
@@ -109,6 +111,7 @@ class FollowerListVC: UIViewController {
     }
 }
 
+//MARK: - CollectionView Delegate Methods
 extension FollowerListVC: UICollectionViewDelegate {
     
     func scrollViewDidEndDragging(_ scrollView: UIScrollView, willDecelerate decelerate: Bool) {
@@ -128,6 +131,7 @@ extension FollowerListVC: UICollectionViewDelegate {
         
         let follower    = activeArray[indexPath.item]
         
+        // Show User Details Page Modally
         let destVC      = UserInfoVC()
         destVC.username = follower.login
         let navController = UINavigationController(rootViewController: destVC)
@@ -135,7 +139,7 @@ extension FollowerListVC: UICollectionViewDelegate {
     }
 }
 
-
+//MARK: - Search Bar Delegate Methods
 extension FollowerListVC: UISearchResultsUpdating, UISearchBarDelegate {
     
     func updateSearchResults(for searchController: UISearchController) {
