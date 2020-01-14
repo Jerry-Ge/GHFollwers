@@ -134,6 +134,8 @@ extension FollowerListVC: UICollectionViewDelegate {
         // Show User Details Page Modally
         let destVC      = UserInfoVC()
         destVC.username = follower.login
+        
+        // add a navbar
         let navController = UINavigationController(rootViewController: destVC)
         present(navController, animated: true)
     }
@@ -153,6 +155,5 @@ extension FollowerListVC: UISearchResultsUpdating, UISearchBarDelegate {
     func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
         isSearching = false
         updateData(on: followers)
-        
     }
 }

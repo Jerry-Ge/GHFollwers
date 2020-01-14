@@ -71,7 +71,7 @@ class SearchVC: UIViewController {
     
     func configureTextField() {
         view.addSubview(usernameTextField)
-        usernameTextField.delegate = self
+        usernameTextField.delegate = self //set the delegate variable
         
         NSLayoutConstraint.activate([
             usernameTextField.topAnchor.constraint(equalTo: logoImageView.bottomAnchor, constant: 48),
@@ -96,6 +96,7 @@ class SearchVC: UIViewController {
 
 //MARK: - TextField Delegate Method
 
+// Tap "go" in softkeyboard for screen transition
 extension SearchVC: UITextFieldDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         pushFollowerListVC()
